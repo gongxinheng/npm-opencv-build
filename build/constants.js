@@ -75,6 +75,7 @@ exports.defaultCmakeFlags = [
     "-DBUILD_opencv_xobjdetect=OFF",
     "-DBUILD_opencv_xphoto=OFF",
     // Custom config
+    "-DOPENCV_FORCE_3RDPARTY_BUILD=ON",
     '-DBUILD_SHARED_LIBS=OFF',
     "-DBUILD_PNG=ON",
     "-DBUILD_TIFF=ON",
