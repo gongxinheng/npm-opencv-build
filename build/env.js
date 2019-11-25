@@ -22,7 +22,7 @@ function autoBuildFlags() {
 }
 exports.autoBuildFlags = autoBuildFlags;
 function opencvVersion() {
-    return process.env.OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION || '3.4.6';
+    return process.env.OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION || '4.1.2';
 }
 exports.opencvVersion = opencvVersion;
 function numberOfCoresAvailable() {
