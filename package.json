@@ -1,5 +1,5 @@
 {
-  "name": "opencv-build",
+  "name": "@gongxinheng/opencv-build-darwin",
   "version": "4.1.1-4",
   "description": "A simple script to auto build recent OpenCV + contrib version via npm",
   "main": "./build/index.js",
@@ -18,7 +18,7 @@
     "build",
     "opencv4nodejs"
   ],
-  "author": "Simon Hofmann <dev@simon-hofmann.org",
+  "author": "Hengstar Gong",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/nut-tree/npm-opencv-build/issues"
@@ -36,5 +36,8 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
     "typescript": "^3.6.3"
+  },
+  "directories": {
+    "test": "test"
   }
 }
